@@ -1,0 +1,368 @@
+[18-Jun-2020 17:59:18 UTC] PHP Warning:  An unexpected error occurred. Something may be wrong with WordPress.org or this server&#8217;s configuration. If you continue to have problems, please try the <a href="https://wordpress.org/support/forums/">support forums</a>. (WordPress could not establish a secure connection to WordPress.org. Please contact your server administrator.) in /Users/jamesmetters/Local Sites/am-agency/app/public/wp-includes/update.php on line 162
+[18-Jun-2020 17:59:18 UTC] PHP Stack trace:
+[18-Jun-2020 17:59:18 UTC] PHP   1. {main}() /Users/jamesmetters/Local Sites/am-agency/app/public/wp-cron.php:0
+[18-Jun-2020 17:59:18 UTC] PHP   2. do_action_ref_array() /Users/jamesmetters/Local Sites/am-agency/app/public/wp-cron.php:138
+[18-Jun-2020 17:59:18 UTC] PHP   3. WP_Hook->do_action() /Users/jamesmetters/Local Sites/am-agency/app/public/wp-includes/plugin.php:544
+[18-Jun-2020 17:59:18 UTC] PHP   4. WP_Hook->apply_filters() /Users/jamesmetters/Local Sites/am-agency/app/public/wp-includes/class-wp-hook.php:311
+[18-Jun-2020 17:59:18 UTC] PHP   5. wp_version_check() /Users/jamesmetters/Local Sites/am-agency/app/public/wp-includes/class-wp-hook.php:287
+[18-Jun-2020 17:59:18 UTC] PHP   6. trigger_error() /Users/jamesmetters/Local Sites/am-agency/app/public/wp-includes/update.php:162
+[19-Jun-2020 06:34:45 UTC] PHP Parse error:  syntax error, unexpected end of file in /Users/jamesmetters/Local Sites/am-agency/app/public/wp-content/themes/twentytwenty/template-parts/post-list-template.php on line 74
+[19-Jun-2020 06:35:08 UTC] PHP Parse error:  syntax error, unexpected end of file in /Users/jamesmetters/Local Sites/am-agency/app/public/wp-content/themes/twentytwenty/template-parts/post-list-template.php on line 72
+[19-Jun-2020 06:35:11 UTC] PHP Parse error:  syntax error, unexpected end of file in /Users/jamesmetters/Local Sites/am-agency/app/public/wp-content/themes/twentytwenty/template-parts/post-list-template.php on line 72
+[19-Jun-2020 06:35:19 UTC] PHP Parse error:  syntax error, unexpected end of file in /Users/jamesmetters/Local Sites/am-agency/app/public/wp-content/themes/twentytwenty/template-parts/post-list-template.php on line 71
+[19-Jun-2020 06:35:20 UTC] PHP Parse error:  syntax error, unexpected end of file in /Users/jamesmetters/Local Sites/am-agency/app/public/wp-content/themes/twentytwenty/template-parts/post-list-template.php on line 71
+[19-Jun-2020 06:36:05 UTC] PHP Parse error:  syntax error, unexpected end of file in /Users/jamesmetters/Local Sites/am-agency/app/public/wp-content/themes/twentytwenty/template-parts/post-list-template.php on line 74
+[19-Jun-2020 06:36:29 UTC] PHP Parse error:  syntax error, unexpected end of file in /Users/jamesmetters/Local Sites/am-agency/app/public/wp-content/themes/twentytwenty/template-parts/post-list-template.php on line 74
+[19-Jun-2020 06:36:32 UTC] PHP Parse error:  syntax error, unexpected end of file in /Users/jamesmetters/Local Sites/am-agency/app/public/wp-content/themes/twentytwenty/template-parts/post-list-template.php on line 74
+[19-Jun-2020 06:37:53 UTC] PHP Parse error:  syntax error, unexpected 'endif' (T_ENDIF), expecting end of file in /Users/jamesmetters/Local Sites/am-agency/app/public/wp-content/themes/twentytwenty/template-parts/post-list-template.php on line 29
+[19-Jun-2020 06:38:06 UTC] PHP Parse error:  syntax error, unexpected '<', expecting end of file in /Users/jamesmetters/Local Sites/am-agency/app/public/wp-content/themes/twentytwenty/template-parts/post-list-template.php on line 27
+[19-Jun-2020 06:38:26 UTC] PHP Parse error:  syntax error, unexpected end of file in /Users/jamesmetters/Local Sites/am-agency/app/public/wp-content/themes/twentytwenty/template-parts/post-list-template.php on line 73
+[19-Jun-2020 06:41:36 UTC] PHP Parse error:  syntax error, unexpected end of file in /Users/jamesmetters/Local Sites/am-agency/app/public/wp-content/themes/twentytwenty/template-parts/post-list-template.php on line 73
+[19-Jun-2020 06:42:47 UTC] PHP Parse error:  syntax error, unexpected end of file in /Users/jamesmetters/Local Sites/am-agency/app/public/wp-content/themes/twentytwenty/template-parts/post-list-template.php on line 73
+[19-Jun-2020 06:43:43 UTC] PHP Parse error:  syntax error, unexpected end of file in /Users/jamesmetters/Local Sites/am-agency/app/public/wp-content/themes/twentytwenty/template-parts/post-list-template.php on line 72
+[19-Jun-2020 07:47:03 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_the_thumbnail() in /Users/jamesmetters/Local Sites/am-agency/app/public/wp-content/themes/twentytwenty/template-parts/test.php:32
+Stack trace:
+#0 /Users/jamesmetters/Local Sites/am-agency/app/public/wp-includes/template.php(725): require()
+#1 /Users/jamesmetters/Local Sites/am-agency/app/public/wp-includes/template.php(672): load_template('/Users/jamesmet...', false)
+#2 /Users/jamesmetters/Local Sites/am-agency/app/public/wp-includes/general-template.php(168): locate_template(Array, true, false)
+#3 /Users/jamesmetters/Local Sites/am-agency/app/public/wp-content/themes/twentytwenty/index.php(21): get_template_part('template-parts/...')
+#4 /Users/jamesmetters/Local Sites/am-agency/app/public/wp-includes/template-loader.php(106): include('/Users/jamesmet...')
+#5 /Users/jamesmetters/Local Sites/am-agency/app/public/wp-blog-header.php(19): require_once('/Users/jamesmet...')
+#6 /Users/jamesmetters/Local Sites/am-agency/app/public/index.php(17): require('/Users/jamesmet in /Users/jamesmetters/Local Sites/am-agency/app/public/wp-content/themes/twentytwenty/template-parts/test.php on line 32
+[19-Jun-2020 08:38:16 UTC] PHP Warning:  Invalid argument supplied for foreach() in /Users/jamesmetters/Local Sites/am-agency/app/public/wp-includes/class-wp-post-type.php on line 613
+[19-Jun-2020 08:38:16 UTC] PHP Stack trace:
+[19-Jun-2020 08:38:16 UTC] PHP   1. {main}() /Users/jamesmetters/Local Sites/am-agency/app/public/wp-admin/edit.php:0
+[19-Jun-2020 08:38:16 UTC] PHP   2. require_once() /Users/jamesmetters/Local Sites/am-agency/app/public/wp-admin/edit.php:10
+[19-Jun-2020 08:38:16 UTC] PHP   3. require_once() /Users/jamesmetters/Local Sites/am-agency/app/public/wp-admin/admin.php:34
+[19-Jun-2020 08:38:16 UTC] PHP   4. require_once() /Users/jamesmetters/Local Sites/am-agency/app/public/wp-load.php:37
+[19-Jun-2020 08:38:16 UTC] PHP   5. require_once() /Users/jamesmetters/Local Sites/am-agency/app/public/wp-config.php:77
+[19-Jun-2020 08:38:16 UTC] PHP   6. do_action() /Users/jamesmetters/Local Sites/am-agency/app/public/wp-settings.php:540
+[19-Jun-2020 08:38:16 UTC] PHP   7. WP_Hook->do_action() /Users/jamesmetters/Local Sites/am-agency/app/public/wp-includes/plugin.php:478
+[19-Jun-2020 08:38:16 UTC] PHP   8. WP_Hook->apply_filters() /Users/jamesmetters/Local Sites/am-agency/app/public/wp-includes/class-wp-hook.php:311
+[19-Jun-2020 08:38:16 UTC] PHP   9. new_posttype() /Users/jamesmetters/Local Sites/am-agency/app/public/wp-includes/class-wp-hook.php:287
+[19-Jun-2020 08:38:16 UTC] PHP  10. register_post_type() /Users/jamesmetters/Local Sites/am-agency/app/public/wp-content/themes/twentytwenty/functions.php:770
+[19-Jun-2020 08:38:16 UTC] PHP  11. WP_Post_Type->register_taxonomies() /Users/jamesmetters/Local Sites/am-agency/app/public/wp-includes/post.php:1438
+[19-Jun-2020 08:38:16 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /Users/jamesmetters/Local Sites/am-agency/app/public/wp-includes/class-wp-post-type.php:613) in /Users/jamesmetters/Local Sites/am-agency/app/public/wp-includes/functions.php on line 6221
+[19-Jun-2020 08:38:16 UTC] PHP Stack trace:
+[19-Jun-2020 08:38:16 UTC] PHP   1. {main}() /Users/jamesmetters/Local Sites/am-agency/app/public/wp-admin/edit.php:0
+[19-Jun-2020 08:38:16 UTC] PHP   2. require_once() /Users/jamesmetters/Local Sites/am-agency/app/public/wp-admin/edit.php:10
+[19-Jun-2020 08:38:16 UTC] PHP   3. do_action() /Users/jamesmetters/Local Sites/am-agency/app/public/wp-admin/admin.php:170
+[19-Jun-2020 08:38:16 UTC] PHP   4. WP_Hook->do_action() /Users/jamesmetters/Local Sites/am-agency/app/public/wp-includes/plugin.php:478
+[19-Jun-2020 08:38:16 UTC] PHP   5. WP_Hook->apply_filters() /Users/jamesmetters/Local Sites/am-agency/app/public/wp-includes/class-wp-hook.php:311
+[19-Jun-2020 08:38:16 UTC] PHP   6. send_frame_options_header() /Users/jamesmetters/Local Sites/am-agency/app/public/wp-includes/class-wp-hook.php:285
+[19-Jun-2020 08:38:16 UTC] PHP   7. header() /Users/jamesmetters/Local Sites/am-agency/app/public/wp-includes/functions.php:6221
+[19-Jun-2020 08:38:16 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /Users/jamesmetters/Local Sites/am-agency/app/public/wp-includes/class-wp-post-type.php:613) in /Users/jamesmetters/Local Sites/am-agency/app/public/wp-admin/includes/misc.php on line 1282
+[19-Jun-2020 08:38:16 UTC] PHP Stack trace:
+[19-Jun-2020 08:38:16 UTC] PHP   1. {main}() /Users/jamesmetters/Local Sites/am-agency/app/public/wp-admin/edit.php:0
+[19-Jun-2020 08:38:16 UTC] PHP   2. require_once() /Users/jamesmetters/Local Sites/am-agency/app/public/wp-admin/edit.php:10
+[19-Jun-2020 08:38:16 UTC] PHP   3. do_action() /Users/jamesmetters/Local Sites/am-agency/app/public/wp-admin/admin.php:170
+[19-Jun-2020 08:38:16 UTC] PHP   4. WP_Hook->do_action() /Users/jamesmetters/Local Sites/am-agency/app/public/wp-includes/plugin.php:478
+[19-Jun-2020 08:38:16 UTC] PHP   5. WP_Hook->apply_filters() /Users/jamesmetters/Local Sites/am-agency/app/public/wp-includes/class-wp-hook.php:311
+[19-Jun-2020 08:38:16 UTC] PHP   6. wp_admin_headers() /Users/jamesmetters/Local Sites/am-agency/app/public/wp-includes/class-wp-hook.php:287
+[19-Jun-2020 08:38:16 UTC] PHP   7. header() /Users/jamesmetters/Local Sites/am-agency/app/public/wp-admin/includes/misc.php:1282
+[19-Jun-2020 08:38:16 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /Users/jamesmetters/Local Sites/am-agency/app/public/wp-includes/class-wp-post-type.php:613) in /Users/jamesmetters/Local Sites/am-agency/app/public/wp-admin/admin-header.php on line 9
+[19-Jun-2020 08:38:16 UTC] PHP Stack trace:
+[19-Jun-2020 08:38:16 UTC] PHP   1. {main}() /Users/jamesmetters/Local Sites/am-agency/app/public/wp-admin/edit.php:0
+[19-Jun-2020 08:38:16 UTC] PHP   2. require_once() /Users/jamesmetters/Local Sites/am-agency/app/public/wp-admin/edit.php:386
+[19-Jun-2020 08:38:16 UTC] PHP   3. header() /Users/jamesmetters/Local Sites/am-agency/app/public/wp-admin/admin-header.php:9
+[19-Jun-2020 08:38:16 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /Users/jamesmetters/Local Sites/am-agency/app/public/wp-includes/class-wp-post-type.php:613) in /Users/jamesmetters/Local Sites/am-agency/app/public/wp-includes/option.php on line 961
+[19-Jun-2020 08:38:16 UTC] PHP Stack trace:
+[19-Jun-2020 08:38:16 UTC] PHP   1. {main}() /Users/jamesmetters/Local Sites/am-agency/app/public/wp-admin/edit.php:0
+[19-Jun-2020 08:38:16 UTC] PHP   2. require_once() /Users/jamesmetters/Local Sites/am-agency/app/public/wp-admin/edit.php:386
+[19-Jun-2020 08:38:16 UTC] PHP   3. wp_user_settings() /Users/jamesmetters/Local Sites/am-agency/app/public/wp-admin/admin-header.php:70
+[19-Jun-2020 08:38:16 UTC] PHP   4. setcookie() /Users/jamesmetters/Local Sites/am-agency/app/public/wp-includes/option.php:961
+[19-Jun-2020 08:38:16 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /Users/jamesmetters/Local Sites/am-agency/app/public/wp-includes/class-wp-post-type.php:613) in /Users/jamesmetters/Local Sites/am-agency/app/public/wp-includes/option.php on line 962
+[19-Jun-2020 08:38:16 UTC] PHP Stack trace:
+[19-Jun-2020 08:38:16 UTC] PHP   1. {main}() /Users/jamesmetters/Local Sites/am-agency/app/public/wp-admin/edit.php:0
+[19-Jun-2020 08:38:16 UTC] PHP   2. require_once() /Users/jamesmetters/Local Sites/am-agency/app/public/wp-admin/edit.php:386
+[19-Jun-2020 08:38:16 UTC] PHP   3. wp_user_settings() /Users/jamesmetters/Local Sites/am-agency/app/public/wp-admin/admin-header.php:70
+[19-Jun-2020 08:38:16 UTC] PHP   4. setcookie() /Users/jamesmetters/Local Sites/am-agency/app/public/wp-includes/option.php:962
+[19-Jun-2020 08:38:17 UTC] PHP Warning:  Invalid argument supplied for foreach() in /Users/jamesmetters/Local Sites/am-agency/app/public/wp-includes/class-wp-post-type.php on line 613
+[19-Jun-2020 08:38:17 UTC] PHP Stack trace:
+[19-Jun-2020 08:38:17 UTC] PHP   1. {main}() /Users/jamesmetters/Local Sites/am-agency/app/public/wp-admin/admin-ajax.php:0
+[19-Jun-2020 08:38:17 UTC] PHP   2. require_once() /Users/jamesmetters/Local Sites/am-agency/app/public/wp-admin/admin-ajax.php:22
+[19-Jun-2020 08:38:17 UTC] PHP   3. require_once() /Users/jamesmetters/Local Sites/am-agency/app/public/wp-load.php:37
+[19-Jun-2020 08:38:17 UTC] PHP   4. require_once() /Users/jamesmetters/Local Sites/am-agency/app/public/wp-config.php:77
+[19-Jun-2020 08:38:17 UTC] PHP   5. do_action() /Users/jamesmetters/Local Sites/am-agency/app/public/wp-settings.php:540
+[19-Jun-2020 08:38:17 UTC] PHP   6. WP_Hook->do_action() /Users/jamesmetters/Local Sites/am-agency/app/public/wp-includes/plugin.php:478
+[19-Jun-2020 08:38:17 UTC] PHP   7. WP_Hook->apply_filters() /Users/jamesmetters/Local Sites/am-agency/app/public/wp-includes/class-wp-hook.php:311
+[19-Jun-2020 08:38:17 UTC] PHP   8. new_posttype() /Users/jamesmetters/Local Sites/am-agency/app/public/wp-includes/class-wp-hook.php:287
+[19-Jun-2020 08:38:17 UTC] PHP   9. register_post_type() /Users/jamesmetters/Local Sites/am-agency/app/public/wp-content/themes/twentytwenty/functions.php:770
+[19-Jun-2020 08:38:17 UTC] PHP  10. WP_Post_Type->register_taxonomies() /Users/jamesmetters/Local Sites/am-agency/app/public/wp-includes/post.php:1438
+[19-Jun-2020 08:38:42 UTC] PHP Warning:  Invalid argument supplied for foreach() in /Users/jamesmetters/Local Sites/am-agency/app/public/wp-includes/class-wp-post-type.php on line 613
+[19-Jun-2020 08:38:42 UTC] PHP Stack trace:
+[19-Jun-2020 08:38:42 UTC] PHP   1. {main}() /Users/jamesmetters/Local Sites/am-agency/app/public/wp-admin/admin-ajax.php:0
+[19-Jun-2020 08:38:42 UTC] PHP   2. require_once() /Users/jamesmetters/Local Sites/am-agency/app/public/wp-admin/admin-ajax.php:22
+[19-Jun-2020 08:38:42 UTC] PHP   3. require_once() /Users/jamesmetters/Local Sites/am-agency/app/public/wp-load.php:37
+[19-Jun-2020 08:38:42 UTC] PHP   4. require_once() /Users/jamesmetters/Local Sites/am-agency/app/public/wp-config.php:77
+[19-Jun-2020 08:38:42 UTC] PHP   5. do_action() /Users/jamesmetters/Local Sites/am-agency/app/public/wp-settings.php:540
+[19-Jun-2020 08:38:42 UTC] PHP   6. WP_Hook->do_action() /Users/jamesmetters/Local Sites/am-agency/app/public/wp-includes/plugin.php:478
+[19-Jun-2020 08:38:42 UTC] PHP   7. WP_Hook->apply_filters() /Users/jamesmetters/Local Sites/am-agency/app/public/wp-includes/class-wp-hook.php:311
+[19-Jun-2020 08:38:42 UTC] PHP   8. new_posttype() /Users/jamesmetters/Local Sites/am-agency/app/public/wp-includes/class-wp-hook.php:287
+[19-Jun-2020 08:38:42 UTC] PHP   9. register_post_type() /Users/jamesmetters/Local Sites/am-agency/app/public/wp-content/themes/twentytwenty/functions.php:770
+[19-Jun-2020 08:38:42 UTC] PHP  10. WP_Post_Type->register_taxonomies() /Users/jamesmetters/Local Sites/am-agency/app/public/wp-includes/post.php:1438
+[19-Jun-2020 08:44:55 UTC] PHP Parse error:  syntax error, unexpected end of file in /Users/jamesmetters/Local Sites/am-agency/app/public/wp-content/themes/twentytwenty/functions.php on line 833
+[19-Jun-2020 09:01:30 UTC] PHP Parse error:  syntax error, unexpected '}', expecting end of file in /Users/jamesmetters/Local Sites/am-agency/app/public/wp-content/themes/twentytwenty/functions.php on line 868
+[19-Jun-2020 09:01:39 UTC] PHP Parse error:  syntax error, unexpected '}', expecting end of file in /Users/jamesmetters/Local Sites/am-agency/app/public/wp-content/themes/twentytwenty/functions.php on line 868
+[19-Jun-2020 20:00:22 UTC] PHP Parse error:  syntax error, unexpected ';', expecting ')' in /Users/jamesmetters/Local Sites/am-agency/app/public/wp-content/themes/twentytwenty/functions.php on line 793
+[19-Jun-2020 20:00:25 UTC] PHP Parse error:  syntax error, unexpected ';', expecting ')' in /Users/jamesmetters/Local Sites/am-agency/app/public/wp-content/themes/twentytwenty/functions.php on line 793
+[19-Jun-2020 20:00:25 UTC] PHP Parse error:  syntax error, unexpected ';', expecting ')' in /Users/jamesmetters/Local Sites/am-agency/app/public/wp-content/themes/twentytwenty/functions.php on line 793
+[19-Jun-2020 20:01:18 UTC] PHP Parse error:  syntax error, unexpected '}', expecting ')' in /Users/jamesmetters/Local Sites/am-agency/app/public/wp-content/themes/twentytwenty/functions.php on line 795
+[19-Jun-2020 20:24:12 UTC] PHP Parse error:  syntax error, unexpected '<' in /Users/jamesmetters/Local Sites/am-agency/app/public/wp-content/themes/twentytwenty/functions.php on line 766
+[19-Jun-2020 20:24:14 UTC] PHP Parse error:  syntax error, unexpected '<' in /Users/jamesmetters/Local Sites/am-agency/app/public/wp-content/themes/twentytwenty/functions.php on line 766
+[19-Jun-2020 20:31:04 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'resources-taxonomy' not found or invalid function name in /Users/jamesmetters/Local Sites/am-agency/app/public/wp-includes/class-wp-hook.php on line 287
+[19-Jun-2020 20:31:04 UTC] PHP Stack trace:
+[19-Jun-2020 20:31:04 UTC] PHP   1. {main}() /Users/jamesmetters/Local Sites/am-agency/app/public/wp-admin/admin-ajax.php:0
+[19-Jun-2020 20:31:04 UTC] PHP   2. require_once() /Users/jamesmetters/Local Sites/am-agency/app/public/wp-admin/admin-ajax.php:22
+[19-Jun-2020 20:31:04 UTC] PHP   3. require_once() /Users/jamesmetters/Local Sites/am-agency/app/public/wp-load.php:37
+[19-Jun-2020 20:31:04 UTC] PHP   4. require_once() /Users/jamesmetters/Local Sites/am-agency/app/public/wp-config.php:77
+[19-Jun-2020 20:31:04 UTC] PHP   5. do_action() /Users/jamesmetters/Local Sites/am-agency/app/public/wp-settings.php:540
+[19-Jun-2020 20:31:04 UTC] PHP   6. WP_Hook->do_action() /Users/jamesmetters/Local Sites/am-agency/app/public/wp-includes/plugin.php:478
+[19-Jun-2020 20:31:04 UTC] PHP   7. WP_Hook->apply_filters() /Users/jamesmetters/Local Sites/am-agency/app/public/wp-includes/class-wp-hook.php:311
+[19-Jun-2020 20:31:07 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'resources-taxonomy' not found or invalid function name in /Users/jamesmetters/Local Sites/am-agency/app/public/wp-includes/class-wp-hook.php on line 287
+[19-Jun-2020 20:31:07 UTC] PHP Stack trace:
+[19-Jun-2020 20:31:07 UTC] PHP   1. {main}() /Users/jamesmetters/Local Sites/am-agency/app/public/wp-admin/edit.php:0
+[19-Jun-2020 20:31:07 UTC] PHP   2. require_once() /Users/jamesmetters/Local Sites/am-agency/app/public/wp-admin/edit.php:10
+[19-Jun-2020 20:31:07 UTC] PHP   3. require_once() /Users/jamesmetters/Local Sites/am-agency/app/public/wp-admin/admin.php:34
+[19-Jun-2020 20:31:07 UTC] PHP   4. require_once() /Users/jamesmetters/Local Sites/am-agency/app/public/wp-load.php:37
+[19-Jun-2020 20:31:07 UTC] PHP   5. require_once() /Users/jamesmetters/Local Sites/am-agency/app/public/wp-config.php:77
+[19-Jun-2020 20:31:07 UTC] PHP   6. do_action() /Users/jamesmetters/Local Sites/am-agency/app/public/wp-settings.php:540
+[19-Jun-2020 20:31:07 UTC] PHP   7. WP_Hook->do_action() /Users/jamesmetters/Local Sites/am-agency/app/public/wp-includes/plugin.php:478
+[19-Jun-2020 20:31:07 UTC] PHP   8. WP_Hook->apply_filters() /Users/jamesmetters/Local Sites/am-agency/app/public/wp-includes/class-wp-hook.php:311
+[19-Jun-2020 20:31:07 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'resources-taxonomy' not found or invalid function name in /Users/jamesmetters/Local Sites/am-agency/app/public/wp-includes/class-wp-hook.php on line 287
+[19-Jun-2020 20:31:07 UTC] PHP Stack trace:
+[19-Jun-2020 20:31:07 UTC] PHP   1. {main}() /Users/jamesmetters/Local Sites/am-agency/app/public/wp-admin/admin-ajax.php:0
+[19-Jun-2020 20:31:07 UTC] PHP   2. require_once() /Users/jamesmetters/Local Sites/am-agency/app/public/wp-admin/admin-ajax.php:22
+[19-Jun-2020 20:31:07 UTC] PHP   3. require_once() /Users/jamesmetters/Local Sites/am-agency/app/public/wp-load.php:37
+[19-Jun-2020 20:31:07 UTC] PHP   4. require_once() /Users/jamesmetters/Local Sites/am-agency/app/public/wp-config.php:77
+[19-Jun-2020 20:31:07 UTC] PHP   5. do_action() /Users/jamesmetters/Local Sites/am-agency/app/public/wp-settings.php:540
+[19-Jun-2020 20:31:07 UTC] PHP   6. WP_Hook->do_action() /Users/jamesmetters/Local Sites/am-agency/app/public/wp-includes/plugin.php:478
+[19-Jun-2020 20:31:07 UTC] PHP   7. WP_Hook->apply_filters() /Users/jamesmetters/Local Sites/am-agency/app/public/wp-includes/class-wp-hook.php:311
+[19-Jun-2020 20:31:22 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'resources-taxonomy' not found or invalid function name in /Users/jamesmetters/Local Sites/am-agency/app/public/wp-includes/class-wp-hook.php on line 287
+[19-Jun-2020 20:31:22 UTC] PHP Stack trace:
+[19-Jun-2020 20:31:22 UTC] PHP   1. {main}() /Users/jamesmetters/Local Sites/am-agency/app/public/wp-admin/admin-ajax.php:0
+[19-Jun-2020 20:31:22 UTC] PHP   2. require_once() /Users/jamesmetters/Local Sites/am-agency/app/public/wp-admin/admin-ajax.php:22
+[19-Jun-2020 20:31:22 UTC] PHP   3. require_once() /Users/jamesmetters/Local Sites/am-agency/app/public/wp-load.php:37
+[19-Jun-2020 20:31:22 UTC] PHP   4. require_once() /Users/jamesmetters/Local Sites/am-agency/app/public/wp-config.php:77
+[19-Jun-2020 20:31:22 UTC] PHP   5. do_action() /Users/jamesmetters/Local Sites/am-agency/app/public/wp-settings.php:540
+[19-Jun-2020 20:31:22 UTC] PHP   6. WP_Hook->do_action() /Users/jamesmetters/Local Sites/am-agency/app/public/wp-includes/plugin.php:478
+[19-Jun-2020 20:31:22 UTC] PHP   7. WP_Hook->apply_filters() /Users/jamesmetters/Local Sites/am-agency/app/public/wp-includes/class-wp-hook.php:311
+[19-Jun-2020 20:31:25 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'resources-taxonomy' not found or invalid function name in /Users/jamesmetters/Local Sites/am-agency/app/public/wp-includes/class-wp-hook.php on line 287
+[19-Jun-2020 20:31:25 UTC] PHP Stack trace:
+[19-Jun-2020 20:31:25 UTC] PHP   1. {main}() /Users/jamesmetters/Local Sites/am-agency/app/public/wp-admin/edit.php:0
+[19-Jun-2020 20:31:25 UTC] PHP   2. require_once() /Users/jamesmetters/Local Sites/am-agency/app/public/wp-admin/edit.php:10
+[19-Jun-2020 20:31:25 UTC] PHP   3. require_once() /Users/jamesmetters/Local Sites/am-agency/app/public/wp-admin/admin.php:34
+[19-Jun-2020 20:31:25 UTC] PHP   4. require_once() /Users/jamesmetters/Local Sites/am-agency/app/public/wp-load.php:37
+[19-Jun-2020 20:31:25 UTC] PHP   5. require_once() /Users/jamesmetters/Local Sites/am-agency/app/public/wp-config.php:77
+[19-Jun-2020 20:31:25 UTC] PHP   6. do_action() /Users/jamesmetters/Local Sites/am-agency/app/public/wp-settings.php:540
+[19-Jun-2020 20:31:25 UTC] PHP   7. WP_Hook->do_action() /Users/jamesmetters/Local Sites/am-agency/app/public/wp-includes/plugin.php:478
+[19-Jun-2020 20:31:25 UTC] PHP   8. WP_Hook->apply_filters() /Users/jamesmetters/Local Sites/am-agency/app/public/wp-includes/class-wp-hook.php:311
+[19-Jun-2020 20:31:26 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'resources-taxonomy' not found or invalid function name in /Users/jamesmetters/Local Sites/am-agency/app/public/wp-includes/class-wp-hook.php on line 287
+[19-Jun-2020 20:31:26 UTC] PHP Stack trace:
+[19-Jun-2020 20:31:26 UTC] PHP   1. {main}() /Users/jamesmetters/Local Sites/am-agency/app/public/wp-admin/admin-ajax.php:0
+[19-Jun-2020 20:31:26 UTC] PHP   2. require_once() /Users/jamesmetters/Local Sites/am-agency/app/public/wp-admin/admin-ajax.php:22
+[19-Jun-2020 20:31:26 UTC] PHP   3. require_once() /Users/jamesmetters/Local Sites/am-agency/app/public/wp-load.php:37
+[19-Jun-2020 20:31:26 UTC] PHP   4. require_once() /Users/jamesmetters/Local Sites/am-agency/app/public/wp-config.php:77
+[19-Jun-2020 20:31:26 UTC] PHP   5. do_action() /Users/jamesmetters/Local Sites/am-agency/app/public/wp-settings.php:540
+[19-Jun-2020 20:31:26 UTC] PHP   6. WP_Hook->do_action() /Users/jamesmetters/Local Sites/am-agency/app/public/wp-includes/plugin.php:478
+[19-Jun-2020 20:31:26 UTC] PHP   7. WP_Hook->apply_filters() /Users/jamesmetters/Local Sites/am-agency/app/public/wp-includes/class-wp-hook.php:311
+[19-Jun-2020 20:31:27 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'resources-taxonomy' not found or invalid function name in /Users/jamesmetters/Local Sites/am-agency/app/public/wp-includes/class-wp-hook.php on line 287
+[19-Jun-2020 20:31:27 UTC] PHP Stack trace:
+[19-Jun-2020 20:31:27 UTC] PHP   1. {main}() /Users/jamesmetters/Local Sites/am-agency/app/public/wp-admin/edit.php:0
+[19-Jun-2020 20:31:27 UTC] PHP   2. require_once() /Users/jamesmetters/Local Sites/am-agency/app/public/wp-admin/edit.php:10
+[19-Jun-2020 20:31:27 UTC] PHP   3. require_once() /Users/jamesmetters/Local Sites/am-agency/app/public/wp-admin/admin.php:34
+[19-Jun-2020 20:31:27 UTC] PHP   4. require_once() /Users/jamesmetters/Local Sites/am-agency/app/public/wp-load.php:37
+[19-Jun-2020 20:31:27 UTC] PHP   5. require_once() /Users/jamesmetters/Local Sites/am-agency/app/public/wp-config.php:77
+[19-Jun-2020 20:31:27 UTC] PHP   6. do_action() /Users/jamesmetters/Local Sites/am-agency/app/public/wp-settings.php:540
+[19-Jun-2020 20:31:27 UTC] PHP   7. WP_Hook->do_action() /Users/jamesmetters/Local Sites/am-agency/app/public/wp-includes/plugin.php:478
+[19-Jun-2020 20:31:27 UTC] PHP   8. WP_Hook->apply_filters() /Users/jamesmetters/Local Sites/am-agency/app/public/wp-includes/class-wp-hook.php:311
+[19-Jun-2020 20:31:27 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'resources-taxonomy' not found or invalid function name in /Users/jamesmetters/Local Sites/am-agency/app/public/wp-includes/class-wp-hook.php on line 287
+[19-Jun-2020 20:31:27 UTC] PHP Stack trace:
+[19-Jun-2020 20:31:27 UTC] PHP   1. {main}() /Users/jamesmetters/Local Sites/am-agency/app/public/wp-admin/admin-ajax.php:0
+[19-Jun-2020 20:31:27 UTC] PHP   2. require_once() /Users/jamesmetters/Local Sites/am-agency/app/public/wp-admin/admin-ajax.php:22
+[19-Jun-2020 20:31:27 UTC] PHP   3. require_once() /Users/jamesmetters/Local Sites/am-agency/app/public/wp-load.php:37
+[19-Jun-2020 20:31:27 UTC] PHP   4. require_once() /Users/jamesmetters/Local Sites/am-agency/app/public/wp-config.php:77
+[19-Jun-2020 20:31:27 UTC] PHP   5. do_action() /Users/jamesmetters/Local Sites/am-agency/app/public/wp-settings.php:540
+[19-Jun-2020 20:31:27 UTC] PHP   6. WP_Hook->do_action() /Users/jamesmetters/Local Sites/am-agency/app/public/wp-includes/plugin.php:478
+[19-Jun-2020 20:31:27 UTC] PHP   7. WP_Hook->apply_filters() /Users/jamesmetters/Local Sites/am-agency/app/public/wp-includes/class-wp-hook.php:311
+[19-Jun-2020 20:31:41 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'resources-taxonomy' not found or invalid function name in /Users/jamesmetters/Local Sites/am-agency/app/public/wp-includes/class-wp-hook.php on line 287
+[19-Jun-2020 20:31:41 UTC] PHP Stack trace:
+[19-Jun-2020 20:31:41 UTC] PHP   1. {main}() /Users/jamesmetters/Local Sites/am-agency/app/public/wp-admin/edit.php:0
+[19-Jun-2020 20:31:41 UTC] PHP   2. require_once() /Users/jamesmetters/Local Sites/am-agency/app/public/wp-admin/edit.php:10
+[19-Jun-2020 20:31:41 UTC] PHP   3. require_once() /Users/jamesmetters/Local Sites/am-agency/app/public/wp-admin/admin.php:34
+[19-Jun-2020 20:31:41 UTC] PHP   4. require_once() /Users/jamesmetters/Local Sites/am-agency/app/public/wp-load.php:37
+[19-Jun-2020 20:31:41 UTC] PHP   5. require_once() /Users/jamesmetters/Local Sites/am-agency/app/public/wp-config.php:77
+[19-Jun-2020 20:31:41 UTC] PHP   6. do_action() /Users/jamesmetters/Local Sites/am-agency/app/public/wp-settings.php:540
+[19-Jun-2020 20:31:41 UTC] PHP   7. WP_Hook->do_action() /Users/jamesmetters/Local Sites/am-agency/app/public/wp-includes/plugin.php:478
+[19-Jun-2020 20:31:41 UTC] PHP   8. WP_Hook->apply_filters() /Users/jamesmetters/Local Sites/am-agency/app/public/wp-includes/class-wp-hook.php:311
+[19-Jun-2020 20:31:42 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'resources-taxonomy' not found or invalid function name in /Users/jamesmetters/Local Sites/am-agency/app/public/wp-includes/class-wp-hook.php on line 287
+[19-Jun-2020 20:31:42 UTC] PHP Stack trace:
+[19-Jun-2020 20:31:42 UTC] PHP   1. {main}() /Users/jamesmetters/Local Sites/am-agency/app/public/wp-admin/admin-ajax.php:0
+[19-Jun-2020 20:31:42 UTC] PHP   2. require_once() /Users/jamesmetters/Local Sites/am-agency/app/public/wp-admin/admin-ajax.php:22
+[19-Jun-2020 20:31:42 UTC] PHP   3. require_once() /Users/jamesmetters/Local Sites/am-agency/app/public/wp-load.php:37
+[19-Jun-2020 20:31:42 UTC] PHP   4. require_once() /Users/jamesmetters/Local Sites/am-agency/app/public/wp-config.php:77
+[19-Jun-2020 20:31:42 UTC] PHP   5. do_action() /Users/jamesmetters/Local Sites/am-agency/app/public/wp-settings.php:540
+[19-Jun-2020 20:31:42 UTC] PHP   6. WP_Hook->do_action() /Users/jamesmetters/Local Sites/am-agency/app/public/wp-includes/plugin.php:478
+[19-Jun-2020 20:31:42 UTC] PHP   7. WP_Hook->apply_filters() /Users/jamesmetters/Local Sites/am-agency/app/public/wp-includes/class-wp-hook.php:311
+[19-Jun-2020 20:31:57 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'resources-taxonomy' not found or invalid function name in /Users/jamesmetters/Local Sites/am-agency/app/public/wp-includes/class-wp-hook.php on line 287
+[19-Jun-2020 20:31:57 UTC] PHP Stack trace:
+[19-Jun-2020 20:31:57 UTC] PHP   1. {main}() /Users/jamesmetters/Local Sites/am-agency/app/public/wp-admin/admin-ajax.php:0
+[19-Jun-2020 20:31:57 UTC] PHP   2. require_once() /Users/jamesmetters/Local Sites/am-agency/app/public/wp-admin/admin-ajax.php:22
+[19-Jun-2020 20:31:57 UTC] PHP   3. require_once() /Users/jamesmetters/Local Sites/am-agency/app/public/wp-load.php:37
+[19-Jun-2020 20:31:57 UTC] PHP   4. require_once() /Users/jamesmetters/Local Sites/am-agency/app/public/wp-config.php:77
+[19-Jun-2020 20:31:57 UTC] PHP   5. do_action() /Users/jamesmetters/Local Sites/am-agency/app/public/wp-settings.php:540
+[19-Jun-2020 20:31:57 UTC] PHP   6. WP_Hook->do_action() /Users/jamesmetters/Local Sites/am-agency/app/public/wp-includes/plugin.php:478
+[19-Jun-2020 20:31:57 UTC] PHP   7. WP_Hook->apply_filters() /Users/jamesmetters/Local Sites/am-agency/app/public/wp-includes/class-wp-hook.php:311
+[19-Jun-2020 20:31:57 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'resources-taxonomy' not found or invalid function name in /Users/jamesmetters/Local Sites/am-agency/app/public/wp-includes/class-wp-hook.php on line 287
+[19-Jun-2020 20:31:57 UTC] PHP Stack trace:
+[19-Jun-2020 20:31:57 UTC] PHP   1. {main}() /Users/jamesmetters/Local Sites/am-agency/app/public/wp-cron.php:0
+[19-Jun-2020 20:31:57 UTC] PHP   2. require_once() /Users/jamesmetters/Local Sites/am-agency/app/public/wp-cron.php:44
+[19-Jun-2020 20:31:57 UTC] PHP   3. require_once() /Users/jamesmetters/Local Sites/am-agency/app/public/wp-load.php:37
+[19-Jun-2020 20:31:57 UTC] PHP   4. require_once() /Users/jamesmetters/Local Sites/am-agency/app/public/wp-config.php:77
+[19-Jun-2020 20:31:57 UTC] PHP   5. do_action() /Users/jamesmetters/Local Sites/am-agency/app/public/wp-settings.php:540
+[19-Jun-2020 20:31:57 UTC] PHP   6. WP_Hook->do_action() /Users/jamesmetters/Local Sites/am-agency/app/public/wp-includes/plugin.php:478
+[19-Jun-2020 20:31:57 UTC] PHP   7. WP_Hook->apply_filters() /Users/jamesmetters/Local Sites/am-agency/app/public/wp-includes/class-wp-hook.php:311
+[19-Jun-2020 20:56:22 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'create_book_taxonomies' not found or invalid function name in /Users/jamesmetters/Local Sites/am-agency/app/public/wp-includes/class-wp-hook.php on line 287
+[19-Jun-2020 20:56:22 UTC] PHP Stack trace:
+[19-Jun-2020 20:56:22 UTC] PHP   1. {main}() /Users/jamesmetters/Local Sites/am-agency/app/public/wp-admin/admin-ajax.php:0
+[19-Jun-2020 20:56:22 UTC] PHP   2. require_once() /Users/jamesmetters/Local Sites/am-agency/app/public/wp-admin/admin-ajax.php:22
+[19-Jun-2020 20:56:22 UTC] PHP   3. require_once() /Users/jamesmetters/Local Sites/am-agency/app/public/wp-load.php:37
+[19-Jun-2020 20:56:22 UTC] PHP   4. require_once() /Users/jamesmetters/Local Sites/am-agency/app/public/wp-config.php:77
+[19-Jun-2020 20:56:22 UTC] PHP   5. do_action() /Users/jamesmetters/Local Sites/am-agency/app/public/wp-settings.php:540
+[19-Jun-2020 20:56:22 UTC] PHP   6. WP_Hook->do_action() /Users/jamesmetters/Local Sites/am-agency/app/public/wp-includes/plugin.php:478
+[19-Jun-2020 20:56:22 UTC] PHP   7. WP_Hook->apply_filters() /Users/jamesmetters/Local Sites/am-agency/app/public/wp-includes/class-wp-hook.php:311
+[19-Jun-2020 20:56:24 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'create_book_taxonomies' not found or invalid function name in /Users/jamesmetters/Local Sites/am-agency/app/public/wp-includes/class-wp-hook.php on line 287
+[19-Jun-2020 20:56:24 UTC] PHP Stack trace:
+[19-Jun-2020 20:56:24 UTC] PHP   1. {main}() /Users/jamesmetters/Local Sites/am-agency/app/public/wp-admin/edit.php:0
+[19-Jun-2020 20:56:24 UTC] PHP   2. require_once() /Users/jamesmetters/Local Sites/am-agency/app/public/wp-admin/edit.php:10
+[19-Jun-2020 20:56:24 UTC] PHP   3. require_once() /Users/jamesmetters/Local Sites/am-agency/app/public/wp-admin/admin.php:34
+[19-Jun-2020 20:56:24 UTC] PHP   4. require_once() /Users/jamesmetters/Local Sites/am-agency/app/public/wp-load.php:37
+[19-Jun-2020 20:56:24 UTC] PHP   5. require_once() /Users/jamesmetters/Local Sites/am-agency/app/public/wp-config.php:77
+[19-Jun-2020 20:56:24 UTC] PHP   6. do_action() /Users/jamesmetters/Local Sites/am-agency/app/public/wp-settings.php:540
+[19-Jun-2020 20:56:24 UTC] PHP   7. WP_Hook->do_action() /Users/jamesmetters/Local Sites/am-agency/app/public/wp-includes/plugin.php:478
+[19-Jun-2020 20:56:24 UTC] PHP   8. WP_Hook->apply_filters() /Users/jamesmetters/Local Sites/am-agency/app/public/wp-includes/class-wp-hook.php:311
+[19-Jun-2020 20:56:24 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'create_book_taxonomies' not found or invalid function name in /Users/jamesmetters/Local Sites/am-agency/app/public/wp-includes/class-wp-hook.php on line 287
+[19-Jun-2020 20:56:24 UTC] PHP Stack trace:
+[19-Jun-2020 20:56:24 UTC] PHP   1. {main}() /Users/jamesmetters/Local Sites/am-agency/app/public/wp-admin/admin-ajax.php:0
+[19-Jun-2020 20:56:24 UTC] PHP   2. require_once() /Users/jamesmetters/Local Sites/am-agency/app/public/wp-admin/admin-ajax.php:22
+[19-Jun-2020 20:56:24 UTC] PHP   3. require_once() /Users/jamesmetters/Local Sites/am-agency/app/public/wp-load.php:37
+[19-Jun-2020 20:56:24 UTC] PHP   4. require_once() /Users/jamesmetters/Local Sites/am-agency/app/public/wp-config.php:77
+[19-Jun-2020 20:56:24 UTC] PHP   5. do_action() /Users/jamesmetters/Local Sites/am-agency/app/public/wp-settings.php:540
+[19-Jun-2020 20:56:24 UTC] PHP   6. WP_Hook->do_action() /Users/jamesmetters/Local Sites/am-agency/app/public/wp-includes/plugin.php:478
+[19-Jun-2020 20:56:24 UTC] PHP   7. WP_Hook->apply_filters() /Users/jamesmetters/Local Sites/am-agency/app/public/wp-includes/class-wp-hook.php:311
+[19-Jun-2020 20:58:20 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'create_book_taxonomies' not found or invalid function name in /Users/jamesmetters/Local Sites/am-agency/app/public/wp-includes/class-wp-hook.php on line 287
+[19-Jun-2020 20:58:20 UTC] PHP Stack trace:
+[19-Jun-2020 20:58:20 UTC] PHP   1. {main}() /Users/jamesmetters/Local Sites/am-agency/app/public/wp-admin/admin-ajax.php:0
+[19-Jun-2020 20:58:20 UTC] PHP   2. require_once() /Users/jamesmetters/Local Sites/am-agency/app/public/wp-admin/admin-ajax.php:22
+[19-Jun-2020 20:58:20 UTC] PHP   3. require_once() /Users/jamesmetters/Local Sites/am-agency/app/public/wp-load.php:37
+[19-Jun-2020 20:58:20 UTC] PHP   4. require_once() /Users/jamesmetters/Local Sites/am-agency/app/public/wp-config.php:77
+[19-Jun-2020 20:58:20 UTC] PHP   5. do_action() /Users/jamesmetters/Local Sites/am-agency/app/public/wp-settings.php:540
+[19-Jun-2020 20:58:20 UTC] PHP   6. WP_Hook->do_action() /Users/jamesmetters/Local Sites/am-agency/app/public/wp-includes/plugin.php:478
+[19-Jun-2020 20:58:20 UTC] PHP   7. WP_Hook->apply_filters() /Users/jamesmetters/Local Sites/am-agency/app/public/wp-includes/class-wp-hook.php:311
+[19-Jun-2020 20:58:24 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'create_book_taxonomies' not found or invalid function name in /Users/jamesmetters/Local Sites/am-agency/app/public/wp-includes/class-wp-hook.php on line 287
+[19-Jun-2020 20:58:24 UTC] PHP Stack trace:
+[19-Jun-2020 20:58:24 UTC] PHP   1. {main}() /Users/jamesmetters/Local Sites/am-agency/app/public/wp-admin/edit.php:0
+[19-Jun-2020 20:58:24 UTC] PHP   2. require_once() /Users/jamesmetters/Local Sites/am-agency/app/public/wp-admin/edit.php:10
+[19-Jun-2020 20:58:24 UTC] PHP   3. require_once() /Users/jamesmetters/Local Sites/am-agency/app/public/wp-admin/admin.php:34
+[19-Jun-2020 20:58:24 UTC] PHP   4. require_once() /Users/jamesmetters/Local Sites/am-agency/app/public/wp-load.php:37
+[19-Jun-2020 20:58:24 UTC] PHP   5. require_once() /Users/jamesmetters/Local Sites/am-agency/app/public/wp-config.php:77
+[19-Jun-2020 20:58:24 UTC] PHP   6. do_action() /Users/jamesmetters/Local Sites/am-agency/app/public/wp-settings.php:540
+[19-Jun-2020 20:58:24 UTC] PHP   7. WP_Hook->do_action() /Users/jamesmetters/Local Sites/am-agency/app/public/wp-includes/plugin.php:478
+[19-Jun-2020 20:58:24 UTC] PHP   8. WP_Hook->apply_filters() /Users/jamesmetters/Local Sites/am-agency/app/public/wp-includes/class-wp-hook.php:311
+[19-Jun-2020 20:58:24 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'create_book_taxonomies' not found or invalid function name in /Users/jamesmetters/Local Sites/am-agency/app/public/wp-includes/class-wp-hook.php on line 287
+[19-Jun-2020 20:58:24 UTC] PHP Stack trace:
+[19-Jun-2020 20:58:24 UTC] PHP   1. {main}() /Users/jamesmetters/Local Sites/am-agency/app/public/wp-admin/admin-ajax.php:0
+[19-Jun-2020 20:58:24 UTC] PHP   2. require_once() /Users/jamesmetters/Local Sites/am-agency/app/public/wp-admin/admin-ajax.php:22
+[19-Jun-2020 20:58:24 UTC] PHP   3. require_once() /Users/jamesmetters/Local Sites/am-agency/app/public/wp-load.php:37
+[19-Jun-2020 20:58:24 UTC] PHP   4. require_once() /Users/jamesmetters/Local Sites/am-agency/app/public/wp-config.php:77
+[19-Jun-2020 20:58:24 UTC] PHP   5. do_action() /Users/jamesmetters/Local Sites/am-agency/app/public/wp-settings.php:540
+[19-Jun-2020 20:58:24 UTC] PHP   6. WP_Hook->do_action() /Users/jamesmetters/Local Sites/am-agency/app/public/wp-includes/plugin.php:478
+[19-Jun-2020 20:58:24 UTC] PHP   7. WP_Hook->apply_filters() /Users/jamesmetters/Local Sites/am-agency/app/public/wp-includes/class-wp-hook.php:311
+[19-Jun-2020 20:58:39 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'create_book_taxonomies' not found or invalid function name in /Users/jamesmetters/Local Sites/am-agency/app/public/wp-includes/class-wp-hook.php on line 287
+[19-Jun-2020 20:58:39 UTC] PHP Stack trace:
+[19-Jun-2020 20:58:39 UTC] PHP   1. {main}() /Users/jamesmetters/Local Sites/am-agency/app/public/wp-admin/admin-ajax.php:0
+[19-Jun-2020 20:58:39 UTC] PHP   2. require_once() /Users/jamesmetters/Local Sites/am-agency/app/public/wp-admin/admin-ajax.php:22
+[19-Jun-2020 20:58:39 UTC] PHP   3. require_once() /Users/jamesmetters/Local Sites/am-agency/app/public/wp-load.php:37
+[19-Jun-2020 20:58:39 UTC] PHP   4. require_once() /Users/jamesmetters/Local Sites/am-agency/app/public/wp-config.php:77
+[19-Jun-2020 20:58:39 UTC] PHP   5. do_action() /Users/jamesmetters/Local Sites/am-agency/app/public/wp-settings.php:540
+[19-Jun-2020 20:58:39 UTC] PHP   6. WP_Hook->do_action() /Users/jamesmetters/Local Sites/am-agency/app/public/wp-includes/plugin.php:478
+[19-Jun-2020 20:58:39 UTC] PHP   7. WP_Hook->apply_filters() /Users/jamesmetters/Local Sites/am-agency/app/public/wp-includes/class-wp-hook.php:311
+[19-Jun-2020 21:00:44 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'create_book_taxonomies' not found or invalid function name in /Users/jamesmetters/Local Sites/am-agency/app/public/wp-includes/class-wp-hook.php on line 287
+[19-Jun-2020 21:00:44 UTC] PHP Stack trace:
+[19-Jun-2020 21:00:44 UTC] PHP   1. {main}() /Users/jamesmetters/Local Sites/am-agency/app/public/wp-admin/admin-ajax.php:0
+[19-Jun-2020 21:00:44 UTC] PHP   2. require_once() /Users/jamesmetters/Local Sites/am-agency/app/public/wp-admin/admin-ajax.php:22
+[19-Jun-2020 21:00:44 UTC] PHP   3. require_once() /Users/jamesmetters/Local Sites/am-agency/app/public/wp-load.php:37
+[19-Jun-2020 21:00:44 UTC] PHP   4. require_once() /Users/jamesmetters/Local Sites/am-agency/app/public/wp-config.php:77
+[19-Jun-2020 21:00:44 UTC] PHP   5. do_action() /Users/jamesmetters/Local Sites/am-agency/app/public/wp-settings.php:540
+[19-Jun-2020 21:00:44 UTC] PHP   6. WP_Hook->do_action() /Users/jamesmetters/Local Sites/am-agency/app/public/wp-includes/plugin.php:478
+[19-Jun-2020 21:00:44 UTC] PHP   7. WP_Hook->apply_filters() /Users/jamesmetters/Local Sites/am-agency/app/public/wp-includes/class-wp-hook.php:311
+[19-Jun-2020 21:02:36 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'create_book_taxonomies' not found or invalid function name in /Users/jamesmetters/Local Sites/am-agency/app/public/wp-includes/class-wp-hook.php on line 287
+[19-Jun-2020 21:02:36 UTC] PHP Stack trace:
+[19-Jun-2020 21:02:36 UTC] PHP   1. {main}() /Users/jamesmetters/Local Sites/am-agency/app/public/wp-admin/edit.php:0
+[19-Jun-2020 21:02:36 UTC] PHP   2. require_once() /Users/jamesmetters/Local Sites/am-agency/app/public/wp-admin/edit.php:10
+[19-Jun-2020 21:02:36 UTC] PHP   3. require_once() /Users/jamesmetters/Local Sites/am-agency/app/public/wp-admin/admin.php:34
+[19-Jun-2020 21:02:36 UTC] PHP   4. require_once() /Users/jamesmetters/Local Sites/am-agency/app/public/wp-load.php:37
+[19-Jun-2020 21:02:36 UTC] PHP   5. require_once() /Users/jamesmetters/Local Sites/am-agency/app/public/wp-config.php:77
+[19-Jun-2020 21:02:36 UTC] PHP   6. do_action() /Users/jamesmetters/Local Sites/am-agency/app/public/wp-settings.php:540
+[19-Jun-2020 21:02:36 UTC] PHP   7. WP_Hook->do_action() /Users/jamesmetters/Local Sites/am-agency/app/public/wp-includes/plugin.php:478
+[19-Jun-2020 21:02:36 UTC] PHP   8. WP_Hook->apply_filters() /Users/jamesmetters/Local Sites/am-agency/app/public/wp-includes/class-wp-hook.php:311
+[19-Jun-2020 21:02:38 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'create_book_taxonomies' not found or invalid function name in /Users/jamesmetters/Local Sites/am-agency/app/public/wp-includes/class-wp-hook.php on line 287
+[19-Jun-2020 21:02:38 UTC] PHP Stack trace:
+[19-Jun-2020 21:02:38 UTC] PHP   1. {main}() /Users/jamesmetters/Local Sites/am-agency/app/public/wp-admin/admin-ajax.php:0
+[19-Jun-2020 21:02:38 UTC] PHP   2. require_once() /Users/jamesmetters/Local Sites/am-agency/app/public/wp-admin/admin-ajax.php:22
+[19-Jun-2020 21:02:38 UTC] PHP   3. require_once() /Users/jamesmetters/Local Sites/am-agency/app/public/wp-load.php:37
+[19-Jun-2020 21:02:38 UTC] PHP   4. require_once() /Users/jamesmetters/Local Sites/am-agency/app/public/wp-config.php:77
+[19-Jun-2020 21:02:38 UTC] PHP   5. do_action() /Users/jamesmetters/Local Sites/am-agency/app/public/wp-settings.php:540
+[19-Jun-2020 21:02:38 UTC] PHP   6. WP_Hook->do_action() /Users/jamesmetters/Local Sites/am-agency/app/public/wp-includes/plugin.php:478
+[19-Jun-2020 21:02:38 UTC] PHP   7. WP_Hook->apply_filters() /Users/jamesmetters/Local Sites/am-agency/app/public/wp-includes/class-wp-hook.php:311
+[19-Jun-2020 21:02:53 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'create_book_taxonomies' not found or invalid function name in /Users/jamesmetters/Local Sites/am-agency/app/public/wp-includes/class-wp-hook.php on line 287
+[19-Jun-2020 21:02:53 UTC] PHP Stack trace:
+[19-Jun-2020 21:02:53 UTC] PHP   1. {main}() /Users/jamesmetters/Local Sites/am-agency/app/public/wp-admin/admin-ajax.php:0
+[19-Jun-2020 21:02:53 UTC] PHP   2. require_once() /Users/jamesmetters/Local Sites/am-agency/app/public/wp-admin/admin-ajax.php:22
+[19-Jun-2020 21:02:53 UTC] PHP   3. require_once() /Users/jamesmetters/Local Sites/am-agency/app/public/wp-load.php:37
+[19-Jun-2020 21:02:53 UTC] PHP   4. require_once() /Users/jamesmetters/Local Sites/am-agency/app/public/wp-config.php:77
+[19-Jun-2020 21:02:53 UTC] PHP   5. do_action() /Users/jamesmetters/Local Sites/am-agency/app/public/wp-settings.php:540
+[19-Jun-2020 21:02:53 UTC] PHP   6. WP_Hook->do_action() /Users/jamesmetters/Local Sites/am-agency/app/public/wp-includes/plugin.php:478
+[19-Jun-2020 21:02:53 UTC] PHP   7. WP_Hook->apply_filters() /Users/jamesmetters/Local Sites/am-agency/app/public/wp-includes/class-wp-hook.php:311
+[19-Jun-2020 21:07:00 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'create_book_taxonomies' not found or invalid function name in /Users/jamesmetters/Local Sites/am-agency/app/public/wp-includes/class-wp-hook.php on line 287
+[19-Jun-2020 21:07:00 UTC] PHP Stack trace:
+[19-Jun-2020 21:07:00 UTC] PHP   1. {main}() /Users/jamesmetters/Local Sites/am-agency/app/public/wp-admin/edit.php:0
+[19-Jun-2020 21:07:00 UTC] PHP   2. require_once() /Users/jamesmetters/Local Sites/am-agency/app/public/wp-admin/edit.php:10
+[19-Jun-2020 21:07:00 UTC] PHP   3. require_once() /Users/jamesmetters/Local Sites/am-agency/app/public/wp-admin/admin.php:34
+[19-Jun-2020 21:07:00 UTC] PHP   4. require_once() /Users/jamesmetters/Local Sites/am-agency/app/public/wp-load.php:37
+[19-Jun-2020 21:07:00 UTC] PHP   5. require_once() /Users/jamesmetters/Local Sites/am-agency/app/public/wp-config.php:77
+[19-Jun-2020 21:07:00 UTC] PHP   6. do_action() /Users/jamesmetters/Local Sites/am-agency/app/public/wp-settings.php:540
+[19-Jun-2020 21:07:00 UTC] PHP   7. WP_Hook->do_action() /Users/jamesmetters/Local Sites/am-agency/app/public/wp-includes/plugin.php:478
+[19-Jun-2020 21:07:00 UTC] PHP   8. WP_Hook->apply_filters() /Users/jamesmetters/Local Sites/am-agency/app/public/wp-includes/class-wp-hook.php:311
+[19-Jun-2020 21:07:01 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'create_book_taxonomies' not found or invalid function name in /Users/jamesmetters/Local Sites/am-agency/app/public/wp-includes/class-wp-hook.php on line 287
+[19-Jun-2020 21:07:01 UTC] PHP Stack trace:
+[19-Jun-2020 21:07:01 UTC] PHP   1. {main}() /Users/jamesmetters/Local Sites/am-agency/app/public/wp-admin/admin-ajax.php:0
+[19-Jun-2020 21:07:01 UTC] PHP   2. require_once() /Users/jamesmetters/Local Sites/am-agency/app/public/wp-admin/admin-ajax.php:22
+[19-Jun-2020 21:07:02 UTC] PHP   3. require_once() /Users/jamesmetters/Local Sites/am-agency/app/public/wp-load.php:37
+[19-Jun-2020 21:07:02 UTC] PHP   4. require_once() /Users/jamesmetters/Local Sites/am-agency/app/public/wp-config.php:77
+[19-Jun-2020 21:07:02 UTC] PHP   5. do_action() /Users/jamesmetters/Local Sites/am-agency/app/public/wp-settings.php:540
+[19-Jun-2020 21:07:02 UTC] PHP   6. WP_Hook->do_action() /Users/jamesmetters/Local Sites/am-agency/app/public/wp-includes/plugin.php:478
+[19-Jun-2020 21:07:02 UTC] PHP   7. WP_Hook->apply_filters() /Users/jamesmetters/Local Sites/am-agency/app/public/wp-includes/class-wp-hook.php:311
+[19-Jun-2020 21:07:56 UTC] PHP Parse error:  syntax error, unexpected '/=' (T_DIV_EQUAL), expecting end of file in /Users/jamesmetters/Local Sites/am-agency/app/public/wp-content/themes/twentytwenty/functions.php on line 795
+[19-Jun-2020 21:08:03 UTC] PHP Parse error:  syntax error, unexpected '/=' (T_DIV_EQUAL), expecting end of file in /Users/jamesmetters/Local Sites/am-agency/app/public/wp-content/themes/twentytwenty/functions.php on line 795
+[24-Jun-2020 05:28:54 UTC] PHP Parse error:  syntax error, unexpected ''new_posttype'' (T_CONSTANT_ENCAPSED_STRING), expecting ')' in /Users/jamesmetters/Local Sites/am-agency/app/public/wp-content/themes/twentytwenty/functions.php on line 829
+[24-Jun-2020 05:29:23 UTC] PHP Parse error:  syntax error, unexpected ''new_custom_taxonomies'' (T_CONSTANT_ENCAPSED_STRING), expecting ')' in /Users/jamesmetters/Local Sites/am-agency/app/public/wp-content/themes/twentytwenty/functions.php on line 829
+[24-Jun-2020 05:31:16 UTC] PHP Parse error:  syntax error, unexpected ''new_custom_taxonomies'' (T_CONSTANT_ENCAPSED_STRING), expecting ')' in /Users/jamesmetters/Local Sites/am-agency/app/public/wp-content/themes/twentytwenty/functions.php on line 829
+[24-Jun-2020 06:05:40 UTC] PHP Parse error:  syntax error, unexpected ''new_custom_taxonomies'' (T_CONSTANT_ENCAPSED_STRING), expecting ')' in /Users/jamesmetters/Local Sites/am-agency/app/public/wp-content/themes/twentytwenty/functions.php on line 829
+[24-Jun-2020 06:12:11 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'new_posttype' not found or invalid function name in /Users/jamesmetters/Local Sites/am-agency/app/public/wp-includes/class-wp-hook.php on line 287
+[24-Jun-2020 06:12:11 UTC] PHP Stack trace:
+[24-Jun-2020 06:12:11 UTC] PHP   1. {main}() /Users/jamesmetters/Local Sites/am-agency/app/public/wp-admin/edit.php:0
+[24-Jun-2020 06:12:11 UTC] PHP   2. require_once() /Users/jamesmetters/Local Sites/am-agency/app/public/wp-admin/edit.php:10
+[24-Jun-2020 06:12:11 UTC] PHP   3. require_once() /Users/jamesmetters/Local Sites/am-agency/app/public/wp-admin/admin.php:34
+[24-Jun-2020 06:12:11 UTC] PHP   4. require_once() /Users/jamesmetters/Local Sites/am-agency/app/public/wp-load.php:37
+[24-Jun-2020 06:12:11 UTC] PHP   5. require_once() /Users/jamesmetters/Local Sites/am-agency/app/public/wp-config.php:77
+[24-Jun-2020 06:12:11 UTC] PHP   6. do_action() /Users/jamesmetters/Local Sites/am-agency/app/public/wp-settings.php:540
+[24-Jun-2020 06:12:11 UTC] PHP   7. WP_Hook->do_action() /Users/jamesmetters/Local Sites/am-agency/app/public/wp-includes/plugin.php:478
+[24-Jun-2020 06:12:11 UTC] PHP   8. WP_Hook->apply_filters() /Users/jamesmetters/Local Sites/am-agency/app/public/wp-includes/class-wp-hook.php:311
+[24-Jun-2020 07:27:38 UTC] PHP Parse error:  syntax error, unexpected '=>' (T_DOUBLE_ARROW) in /Users/jamesmetters/Local Sites/am-agency/app/public/wp-content/themes/twentytwenty/functions.php on line 824
+[24-Jun-2020 07:27:40 UTC] PHP Parse error:  syntax error, unexpected '=>' (T_DOUBLE_ARROW) in /Users/jamesmetters/Local Sites/am-agency/app/public/wp-content/themes/twentytwenty/functions.php on line 824
+[24-Jun-2020 07:41:59 UTC] PHP Warning:  strip_tags() expects parameter 1 to be string, array given in /Users/jamesmetters/Local Sites/am-agency/app/public/wp-admin/admin-header.php on line 35
+[24-Jun-2020 07:41:59 UTC] PHP Stack trace:
+[24-Jun-2020 07:41:59 UTC] PHP   1. {main}() /Users/jamesmetters/Local Sites/am-agency/app/public/wp-admin/edit-tags.php:0
+[24-Jun-2020 07:41:59 UTC] PHP   2. require_once() /Users/jamesmetters/Local Sites/am-agency/app/public/wp-admin/edit-tags.php:321
+[24-Jun-2020 07:41:59 UTC] PHP   3. strip_tags() /Users/jamesmetters/Local Sites/am-agency/app/public/wp-admin/admin-header.php:35
